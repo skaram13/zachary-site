@@ -1,0 +1,18 @@
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.row-text{
+    font-family: "Ostrich Sans";
+}
+
+.hover{
+    background-color: darkgrey;
+    opacity: 0.5;
+}
+
+.off-hover{
+    background-color: white;
+    opacity: 1;
+}
