@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import "./Portfolio.css";
 
-class Portfolio extends Component {
+class Manifesto extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -10,10 +9,10 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                PORTFOLIO!!!
+                Manifesto coming soon!!!
             </div>
         )
     }
 }
 
-export default Portfolio;
+export default Manifesto;

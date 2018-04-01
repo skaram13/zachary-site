@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import Row from "../Row/Row";
 import './SlideShow.css';
 import {Carousel} from 'react-bootstrap';
 import pic1 from "../../assets/final-sections-a-b.jpg";
@@ -15,25 +13,6 @@ import pic8 from "../../assets/short-section.jpg";
 class SlideShow extends Component {
     constructor(props){
         super(props);
-        this.state = {currentSlide: 0}
-    }
-
-    timer() {
-        if(this.state.currentSlide < 8) {
-            console.log(this.state.currentSlide);
-            this.setState({
-                currentSlide: this.state.currentSlide + 1
-            })}else{
-            this.setState({
-                currentSlide: 0
-            })}
-
-    }
-    componentDidMount() {
-        this.currentSlide = setInterval(this.timer.bind(this), 5000);
-    }
-    componentWillUnmount(){
-        clearInterval(this.currentSlide);
     }
 
     render() {
@@ -44,16 +23,9 @@ class SlideShow extends Component {
                 </Carousel.Item>
             );
         return(
-            <div>
-                <Carousel className="Slide-Container" interval={3000} carousel="true" slide>
-                    {slideItems}
-                </Carousel>
-                <Row title="PORTFOLIO"/>
-                <Row title="CURRICULUM VITAE"/>
-                <Row title="DESIGN MANIFESTO"/>
-                <Row title="BLOG"/>
-                <Row title="CONTACT"/>
-            </div>
+            <Carousel className="Slide-Container" interval={3000} carousel="true" slide>
+                {slideItems}
+            </Carousel>
 
         );
     }
