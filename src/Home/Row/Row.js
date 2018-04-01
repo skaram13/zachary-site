@@ -22,7 +22,7 @@ class Row extends Component {
             <div className={this.state.hover}>
                 <div className="row row-centered" onMouseLeave={this.handleMouseLeave}
                      onMouseEnter={this.handleMouseEnter}>
-                    <div className="col-md-12 mx-auto col-centered">
+                    <div className="col-md-12 mx-auto no-border">
                         <h3 className="row-text">{this.props.title}</h3>
                     </div>
                 </div>

@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-responsive-carousel": "^3.1.33",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "react": "^16.3.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.0",
+    "react-responsive-carousel": "^3.1.35",
     "react-scripts": "1.1.1",
-    "react-transition-group": "^2.2.1"
+    "react-transition-group": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

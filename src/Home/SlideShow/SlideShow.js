@@ -1,39 +1,53 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import Row from "../Row/Row";
 import './SlideShow.css';
-import cat from '../../assets/kitten2.jpg';
-import cat2 from '../../assets/kitten3.jpg';
-import cat3 from '../../assets/healthykittenmain.jpg';
+import {Carousel} from 'react-bootstrap';
+import pic1 from "../../assets/final-sections-a-b.jpg";
+import pic2 from "../../assets/axon-bw.jpg";
+import pic3 from "../../assets/final-section-c.jpg";
+import pic4 from "../../assets/Final Section_Edited.jpg";
+import pic5 from "../../assets/final-site-plan.jpg";
+import pic6 from "../../assets/massing.jpg";
+import pic7 from "../../assets/perspective-final.jpg";
+import pic8 from "../../assets/short-section.jpg";
 
 class SlideShow extends Component {
     constructor(props){
         super(props);
-        this.state = {currentCount: 0}
+        this.state = {currentSlide: 0}
     }
 
     timer() {
-        if(this.state.currentCount < 2) {
+        if(this.state.currentSlide < 8) {
+            console.log(this.state.currentSlide);
             this.setState({
-                currentCount: this.state.currentCount + 1
+                currentSlide: this.state.currentSlide + 1
             })}else{
             this.setState({
-                currentCount: 0
+                currentSlide: 0
             })}
+
     }
     componentDidMount() {
-        this.currentSlide = setInterval(this.timer.bind(this), 3000);
+        this.currentSlide = setInterval(this.timer.bind(this), 5000);
     }
     componentWillUnmount(){
         clearInterval(this.currentSlide);
     }
 
     render() {
-        let catImages  = [cat2,cat3,cat];
+        let pics = [pic1,pic2,pic3, pic4, pic5, pic6, pic7, pic8];
+        const slideItems = pics.map((pic, index) =>
+                <Carousel.Item>
+                    <img key={index} height="900px" width="900px" src={pic} />
+                </Carousel.Item>
+            );
         return(
             <div>
-                <div className="App-Slide-Container row mx-auto row-centered">
-                    <div className="img-responsive App-Slide" style={{backgroundImage: 'url('+catImages[this.state.currentCount]+')'}}/>
-                </div>
+                <Carousel className="Slide-Container" interval={3000} carousel="true" slide>
+                    {slideItems}
+                </Carousel>
                 <Row title="PORTFOLIO"/>
                 <Row title="CURRICULUM VITAE"/>
                 <Row title="DESIGN MANIFESTO"/>
