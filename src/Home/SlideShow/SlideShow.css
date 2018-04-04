@@ -3,12 +3,14 @@
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   align-items: center;
   max-height: 350px;
-}
+  overflow: hidden;
+  margin: 0 auto;
 
+}
 
 .col-centered {
   display:inline-block;
@@ -19,11 +21,6 @@ img {
 }
 .Slide-Container{
   height: 350px;
-}
-
-.Slide-Items{
-  height: inherit;
-  width: inherit;
 }
 
 @keyframes cf3FadeInOut {
@@ -39,30 +36,4 @@ img {
   100% {
     opacity:0;
   }
-}
-
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 300px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 350px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Portfolio.css";
+import PhotoContainer from "./PhotoContainer/PhotoContainer";
 
 class Portfolio extends Component {
     constructor(props) {
@@ -10,7 +11,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                PORTFOLIO!!!
+                <PhotoContainer/>
             </div>
         )
     }

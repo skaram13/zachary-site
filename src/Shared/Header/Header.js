@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import {Nav, Navbar, NavDropdown, MenuItem} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 class Header extends Component {

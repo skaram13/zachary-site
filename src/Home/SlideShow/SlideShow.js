@@ -11,15 +11,11 @@ import pic7 from "../../assets/perspective-final.jpg";
 import pic8 from "../../assets/short-section.jpg";
 
 class SlideShow extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render() {
         let pics = [pic1,pic2,pic3, pic4, pic5, pic6, pic7, pic8];
         const slideItems = pics.map((pic, index) =>
                 <Carousel.Item>
-                    <img key={index} height="900px" width="900px" src={pic} />
+                    <img alt="slide" key={index} src={pic} />
                 </Carousel.Item>
             );
         return(
