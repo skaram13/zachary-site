@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Header from "../Shared/Header/Header";
 
-class Contact extends Component {
+class Blog extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -9,10 +10,10 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                CONTACT COMING SOON!!!!!!!
+                <Header title="BLOG"/>
             </div>
         )
     }
 }
 
-export default Contact;
+export default Blog;

@@ -11,7 +11,7 @@ class Home extends Component {
         return(
                 <div>
                     <SlideShow/>
-                    <div className="row-centered row logo-row"><img className="logo" alt="logo" src={logo}/></div>
+                    <div className="row-centered row logo-row"><img className="logo-home" alt="logo" src={logo}/></div>
                     <Link to="/portfolio"><Row title="PORTFOLIO"/></Link>
                     <Link to="/cv"><Row title="CURRICULUM VITAE"/></Link>
                     <Link to="/manifesto"><Row title="DESIGN MANIFESTO"/></Link>

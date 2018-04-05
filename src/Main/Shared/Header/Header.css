@@ -1,0 +1,30 @@
+
+.navbar.navbar-default div.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-logo{
+    height: 50px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-home{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Ostrich Sans";
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+
+.nav-dropdown{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ostrich Sans";
+    color: black;
+    font-size: large;
+}

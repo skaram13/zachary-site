@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import "./Portfolio.css";
-import PhotoContainer from "./PhotoContainer/PhotoContainer";
+import Header from "../Shared/Header/Header";
 
-class Portfolio extends Component {
+
+class CV extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -11,10 +11,10 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                <PhotoContainer/>
+                <Header title="CURRICULUM VITAE"/>
             </div>
         )
     }
 }
 
-export default Portfolio;
+export default CV;

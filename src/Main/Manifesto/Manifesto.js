@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import "./Manifesto.css";
 import Header from "../Shared/Header/Header";
-class Manifesto extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
 
+class Manifesto extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Header title="DESIGN MANIFESTO"/>
                 <div className="manifesto-container body-text">
-                <ul class="list-unstyled">
+                <ul className="list-unstyled">
                     <h1>AXIOMS</h1>
                     <li>Architecture & art are expressions of the spiritual human condition;</li>
                     <li>Architecture is spatial balance & spatial disruption;</li>
