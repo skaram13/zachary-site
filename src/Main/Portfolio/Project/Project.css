@@ -1,0 +1,14 @@
+.photos{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.text{
+    width: 25%;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: 1;
+}

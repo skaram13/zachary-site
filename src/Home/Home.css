@@ -7,3 +7,7 @@
     background-color: black;
 
 }
+
+.row-gradient{
+    background: linear-gradient(grey, ghostwhite);
+}

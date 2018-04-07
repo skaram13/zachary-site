@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Home/Home';
+import Project from './Main/Portfolio/Project/Project';
 import Portfolio from './Main/Portfolio/Portfolio';
 import CV from './Main/CV/CV';
 import Contact from './Main/Contact/Contact';
@@ -17,7 +18,8 @@ ReactDOM.render((
     <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/portfolio" component={Portfolio}/>
+            <Route exact path="/portfolio" component={Portfolio}/>
+            <Route path="/portfolio/project/:project_name" component={Project}/>
             <Route path="/cv" component={CV}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/manifesto" component={Manifesto}/>

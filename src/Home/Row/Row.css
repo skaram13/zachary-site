@@ -9,12 +9,11 @@
 }
 
 .hover{
-    background-color: darkgrey;
+    background-color: dimgrey;
     opacity: 0.5;
 }
 
 .off-hover{
-    background-color: white;
     opacity: 1;
 }
 

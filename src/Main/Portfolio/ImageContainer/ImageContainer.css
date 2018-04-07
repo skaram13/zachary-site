@@ -1,4 +1,9 @@
 .portfolio-thumbnail{
     width:100%;
-    height: fit-content;
+    height: auto;
+}
+
+
+portfolio-text{
+    color: black;
 }
