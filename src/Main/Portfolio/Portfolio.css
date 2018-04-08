@@ -1,3 +1,7 @@
 .portfolio-text{
     color:black;
 }
+
+.container{
+    align-content: flex-start;
+}

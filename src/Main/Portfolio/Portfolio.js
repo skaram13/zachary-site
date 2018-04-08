@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "./Portfolio.css";
 import Header from "../Shared/Header/Header";
-import {Link} from 'react-router-dom';
 import ImageContainer from "./ImageContainer/ImageContainer";
 import pic3 from "../../assets/thumbnails/COLLAGES.jpg";
 import pic2 from "../../assets/thumbnails/COLUMBIA.jpg";
@@ -10,11 +9,11 @@ import pic4 from "../../assets/thumbnails/Sacred-Space.jpg";
 import pic5 from "../../assets/thumbnails/TOZZER.jpg";
 
 const images = [
-    {thumbnail: pic1, key: 1, project_name: "diaBeaconImages"},
-    {thumbnail: pic2, key: 2, project_name: "diaBeaconImages"},
-    {thumbnail: pic3, key: 3, project_name: "diaBeaconImages"},
-    {thumbnail: pic4, key: 4, project_name: "diaBeaconImages"},
-    {thumbnail: pic5, key: 5, project_name: "diaBeaconImages"}];
+    {thumbnail: pic1, key: 1, project_name: "diaBeaconImages", display_name:"DIA BEACON"},
+    {thumbnail: pic2, key: 2, project_name: "diaBeaconImages", display_name:"COLLAGES"},
+    {thumbnail: pic3, key: 3, project_name: "diaBeaconImages", display_name:"COLUMBIA"},
+    {thumbnail: pic4, key: 4, project_name: "diaBeaconImages", display_name:"SACRED SPACE"},
+    {thumbnail: pic5, key: 5, project_name: "diaBeaconImages", display_name:"TOZZER"}];
 
 
 class Portfolio extends Component {
@@ -25,9 +24,7 @@ class Portfolio extends Component {
 
     render() {
         const image_grid = images.map((image, index) =>
-            <Link to={"/portfolio/project/:" + image.project_name}>
-                <ImageContainer key={image.key} id={index} thumbnail={image.thumbnail}/>
-            </Link>
+            <ImageContainer key={image.key} id={index} project_name={image.project_name} display={image.display_name} thumbnail={image.thumbnail}/>
         );
 
         return (
