@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './SlideShow.css';
-import Img from 'react-image';
 import {Carousel} from 'react-bootstrap';
 import pic1 from "../../assets/homepage/final-sections-a-b.jpg";
 import pic2 from "../../assets/homepage/axon-bw.jpg";
