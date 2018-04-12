@@ -4,9 +4,14 @@
     <list default="true" id="9acc3f0b-fcaf-413b-8de2-7d79317ea577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.elasticbeanstalk/config.yml" afterPath="$PROJECT_DIR$/.elasticbeanstalk/config.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" afterPath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
       <change beforePath="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" afterPath="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
       <change beforePath="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" afterPath="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" />
+=======
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" afterPath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
+>>>>>>> parent of 8c1c572... nothing
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,6 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Manifesto.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Manifesto/Manifesto.js">
@@ -38,6 +44,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+=======
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+>>>>>>> parent of 8c1c572... nothing
               <folding />
             </state>
           </provider>
@@ -45,6 +59,21 @@
       </file>
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Home.js">
+<<<<<<< HEAD
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Blog/Blog.js">
+>>>>>>> parent of 8c1c572... nothing
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -96,12 +125,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlideShow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js">
+      <file leaf-file-name="Project.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="57">
               <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
 >>>>>>> 4cba25ae1413d93cde71e096f908d43805373ee5
+=======
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+>>>>>>> parent of 8c1c572... nothing
               <folding />
             </state>
           </provider>
@@ -110,9 +144,14 @@
       <file leaf-file-name="Project.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="38">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
 <<<<<<< HEAD
+=======
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+>>>>>>> parent of 8c1c572... nothing
               <folding>
                 <marker date="1523555032953" expanded="true" signature="907:1018" ph="{...}" />
               </folding>
@@ -134,8 +173,13 @@
       <file leaf-file-name="Portfolio.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="128">
               <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+=======
+            <state relative-caret-position="646">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+>>>>>>> parent of 8c1c572... nothing
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -233,15 +277,22 @@
         <option value="$PROJECT_DIR$/src/Home/Row/Row.css" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Lightbox/Lightbox.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.css" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/ImageContainer/ImageContainer.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/ImageContainer/ImageContainer.css" />
         <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
+=======
+        <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
+        <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+>>>>>>> parent of 8c1c572... nothing
       </list>
     </option>
   </component>
@@ -287,6 +338,7 @@
               <item name="zachary-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="zachary-site" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="zachary-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="zachary-site" type="462c0819:PsiDirectoryNode" />
@@ -361,6 +413,8 @@
 >>>>>>> 4cba25ae1413d93cde71e096f908d43805373ee5
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> parent of 8c1c572... nothing
           </expand>
           <select />
         </subPane>
@@ -428,7 +482,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="99278000" />
+=======
+    <option name="totallyTimeSpent" value="97843000" />
+>>>>>>> parent of 8c1c572... nothing
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,6 +499,7 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="35" y="23" width="936" height="934" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24480875" sideWeight="0.88400704" order="0" side_tool="false" content_ui="combo" />
@@ -452,6 +511,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.484153" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3957092" sideWeight="0.8240437" order="8" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="0" y="23" width="1680" height="934" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 8c1c572... nothing
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -727,6 +799,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js">
@@ -738,6 +811,21 @@
             <marker date="1523555032952" expanded="true" signature="778:1152" ph="{...}" />
           </folding>
 =======
+=======
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 8c1c572... nothing
     <entry file="file://$PROJECT_DIR$/src/Home/Row/Row.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -746,12 +834,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/src/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-2">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
 >>>>>>> 4cba25ae1413d93cde71e096f908d43805373ee5
+=======
+        <state relative-caret-position="114">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+>>>>>>> parent of 8c1c572... nothing
         </state>
       </provider>
     </entry>
@@ -768,6 +864,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -779,6 +876,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/ImageContainer/ImageContainer.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main/Manifesto/Manifesto.js">
+>>>>>>> parent of 8c1c572... nothing
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="0">
@@ -794,6 +894,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Manifesto/Manifesto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -805,21 +906,37 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
+>>>>>>> parent of 8c1c572... nothing
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Blog/Blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+>>>>>>> parent of 8c1c572... nothing
           <folding>
             <marker date="1523555032953" expanded="true" signature="907:1018" ph="{...}" />
           </folding>
@@ -839,6 +956,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -864,6 +982,21 @@
             <element signature="e#0#41#0" expanded="true" />
           </folding>
 >>>>>>> 4cba25ae1413d93cde71e096f908d43805373ee5
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of 8c1c572... nothing
         </state>
       </provider>
     </entry>
