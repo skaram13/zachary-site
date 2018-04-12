@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: zachary-site-dev
     group_suffix: null
+  master:
+    environment: zachary-site-dev2
 global:
   application_name: zachary-site
   branch: null
