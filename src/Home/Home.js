@@ -12,12 +12,11 @@ class Home extends Component {
                 <div>
                     <SlideShow/>
                     <div className="row-centered row logo-row"><img className="logo-home" alt="logo" src={logo}/></div>
-                    <div className="row-gradient">
+                    <div>
                         <Link to="/portfolio"><Row title="PORTFOLIO"/></Link>
                         <Link to="/cv"><Row title="CURRICULUM VITAE"/></Link>
                         <Link to="/manifesto"><Row title="DESIGN MANIFESTO"/></Link>
                         <Link to="/blog"><Row title="BLOG"/></Link>
-                        <Link to="/contact"><Row title="CONTACT"/></Link>
                     </div>
                 </div>
         );

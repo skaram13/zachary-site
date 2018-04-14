@@ -5,9 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.elasticbeanstalk/config.yml" afterPath="$PROJECT_DIR$/.elasticbeanstalk/config.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" afterPath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
       <change beforePath="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" afterPath="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
       <change beforePath="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" afterPath="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" />
+=======
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" afterPath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
+>>>>>>> parent of 8c1c572... nothing
 =======
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" afterPath="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
@@ -51,6 +56,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+<<<<<<< HEAD
+>>>>>>> parent of 8c1c572... nothing
+=======
 >>>>>>> parent of 8c1c572... nothing
               <folding />
             </state>
@@ -60,7 +68,10 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Home.js">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8c1c572... nothing
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
@@ -111,6 +122,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Blog/Blog.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,10 +133,19 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Project.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+>>>>>>> parent of 8c1c572... nothing
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Project.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,6 +173,13 @@
             <state relative-caret-position="0">
               <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
 >>>>>>> parent of 8c1c572... nothing
+=======
+      <file leaf-file-name="Project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+>>>>>>> parent of 8c1c572... nothing
               <folding>
                 <marker date="1523555032953" expanded="true" signature="907:1018" ph="{...}" />
               </folding>
@@ -174,9 +202,12 @@
         <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="128">
               <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
 =======
+=======
+>>>>>>> parent of 8c1c572... nothing
             <state relative-caret-position="646">
               <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
 >>>>>>> parent of 8c1c572... nothing
@@ -284,10 +315,16 @@
         <option value="$PROJECT_DIR$/src/Main/Portfolio/ImageContainer/ImageContainer.css" />
         <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.css" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js" />
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
+=======
+        <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
+        <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+>>>>>>> parent of 8c1c572... nothing
 =======
         <option value="$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js" />
         <option value="$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js" />
@@ -338,6 +375,7 @@
               <item name="zachary-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="zachary-site" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <path>
               <item name="zachary-site" type="b2602c69:ProjectViewProjectNode" />
@@ -415,6 +453,8 @@
             </path>
 =======
 >>>>>>> parent of 8c1c572... nothing
+=======
+>>>>>>> parent of 8c1c572... nothing
           </expand>
           <select />
         </subPane>
@@ -483,7 +523,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="99278000" />
+=======
+    <option name="totallyTimeSpent" value="97843000" />
+>>>>>>> parent of 8c1c572... nothing
 =======
     <option name="totallyTimeSpent" value="97843000" />
 >>>>>>> parent of 8c1c572... nothing
@@ -523,6 +567,9 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> parent of 8c1c572... nothing
+=======
 >>>>>>> parent of 8c1c572... nothing
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -825,6 +872,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> parent of 8c1c572... nothing
+=======
 >>>>>>> parent of 8c1c572... nothing
     <entry file="file://$PROJECT_DIR$/src/Home/Row/Row.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -837,6 +887,7 @@
     <entry file="file://$PROJECT_DIR$/src/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="-2">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -844,6 +895,20 @@
 =======
         <state relative-caret-position="114">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+=======
+        <state relative-caret-position="114">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Blog/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+>>>>>>> parent of 8c1c572... nothing
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -851,6 +916,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -877,6 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/ImageContainer/ImageContainer.js">
 =======
+=======
+>>>>>>> parent of 8c1c572... nothing
     <entry file="file://$PROJECT_DIR$/src/Main/Manifesto/Manifesto.js">
 >>>>>>> parent of 8c1c572... nothing
       <provider selected="true" editor-type-id="text-editor">
@@ -894,6 +962,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Manifesto/Manifesto.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -920,6 +989,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+>>>>>>> parent of 8c1c572... nothing
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -943,6 +1036,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Home/SlideShow/SlideShow.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -952,10 +1046,17 @@
         <state relative-caret-position="57">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
 >>>>>>> 4cba25ae1413d93cde71e096f908d43805373ee5
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+>>>>>>> parent of 8c1c572... nothing
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main/Portfolio/Project/Project.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -991,6 +1092,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of 8c1c572... nothing
+=======
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">

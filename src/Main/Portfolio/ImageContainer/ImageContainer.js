@@ -8,7 +8,7 @@ class ImageContainer extends Component {
     render() {
         return (
             <div>
-                <div className="col-md-4">
+                <div className="col-md-2">
                     <Link to={"/portfolio/project/:" + this.props.project_name}>
                         <h3 className="portfolio-text">{this.props.display}</h3>
                         <Img className="portfolio-thumbnail" alt="art" src={this.props.thumbnail} />
