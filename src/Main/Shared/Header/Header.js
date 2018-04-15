@@ -15,12 +15,14 @@ class Header extends Component {
                     <NavItem href="/"><div className="nav-home" >ZACHARY TORRES</div></NavItem>
                     <NavDropdown className="nav-dropdown" eventKey={3} title={this.props.title} id="basic-nav-dropdown">
                         <MenuItem href="/"eventKey={3.1}>HOME</MenuItem>
+                        <MenuItem divider />
                         <MenuItem href="/portfolio"eventKey={3.2}>PORTFOLIO</MenuItem>
+                        <MenuItem divider />
                         <MenuItem href="/cv" eventKey={3.3}>CURRICULUM VITAE</MenuItem>
+                        <MenuItem divider />
                         <MenuItem href="/manifesto" eventKey={3.4}>DESIGN MANIFESTO</MenuItem>
                         <MenuItem divider />
                         <MenuItem href="/blog" eventKey={3.5}>BLOG</MenuItem>
-                        <MenuItem href="/contact" eventKey={3.6}>CONTACT</MenuItem>
                     </NavDropdown>
                 </Nav>
             </Navbar>
