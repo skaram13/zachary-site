@@ -8,7 +8,9 @@ class Project extends Component {
         return(
             <div>
                 <Header title="PROJECT"/>
-                <h1 className="text">COMING SOON</h1>
+                <div className="project-container">
+                    <h1>COMING SOON...</h1>
+                </div>
             </div>
         );
     }

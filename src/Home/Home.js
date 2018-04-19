@@ -3,7 +3,7 @@ import Row from "./Row/Row";
 import "./Home.css";
 import SlideShow from "./SlideShow/SlideShow";
 import {Link} from 'react-router-dom';
-import logo from "../assets/homepage/LOGO.png";
+import logo from "../assets/LOGO.png";
 
 
 class Home extends Component {

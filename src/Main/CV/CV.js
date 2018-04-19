@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./CV.css";
 import Header from "../Shared/Header/Header";
 
 class CV extends Component {
@@ -6,7 +7,9 @@ class CV extends Component {
         return (
             <div>
                 <Header title="CURRICULUM VITAE"/>
-                <h1 className="text">COMING SOON</h1>
+                <div className="cv-container">
+                    <h1>COMING SOON...</h1>
+                </div>
             </div>
         )
     }
