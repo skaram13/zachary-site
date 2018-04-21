@@ -34,9 +34,9 @@ class Project extends Component {
 
         return(
             <div>
-                <Header title="PORTFOLIO" project={this.props.match.params.project_name}/>
+                <Header title="PORTFOLIO" project={this.props.match.params.project_name.replace("-", " ")}/>
                 <div className="project-container">
-                    <h1>{this.props.match.params.project_name}</h1>
+                    <h1 className="header-text">{this.props.match.params.project_name.replace("-", " ")}</h1>
                     {image_grid}
                 </div>
             </div>

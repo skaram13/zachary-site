@@ -2,3 +2,15 @@
     margin-left : 10%;
     margin-right: 10%;
 }
+
+.body-text{
+     font-family: "Helvetica";
+     font-size: medium;
+ }
+
+.icon{
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+

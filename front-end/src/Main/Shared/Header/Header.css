@@ -14,7 +14,7 @@
 .nav-home{
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Ostrich Sans";
+    font-family: "Helvetica Neue";
     font-weight: bold;
     color: black;
     font-size: large;
@@ -24,7 +24,7 @@
 .nav-dropdown{
     margin: 0px;
     padding: 0px;
-    font-family: "Ostrich Sans";
+    font-family: "Helvetica Neue";
     color: black;
     font-size: large;
 }

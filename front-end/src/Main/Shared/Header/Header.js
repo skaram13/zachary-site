@@ -26,15 +26,15 @@ class Header extends Component {
                     </NavDropdown>
                     {this.props.project &&
                         <NavDropdown className="nav-dropdown" eventKey={3} title={this.props.project} id="basic-nav-dropdown">
-                            <MenuItem href="/portfolio/project/TOZZER"eventKey={3.1}>TOZZER</MenuItem>
+                            <MenuItem href="/portfolio/project/COLLAGES"eventKey={3.1}>COLLAGES</MenuItem>
                             <MenuItem divider />
-                            <MenuItem href="/portfolio/project/COLLAGES"eventKey={3.2}>COLLAGES</MenuItem>
+                            <MenuItem href="/portfolio/project/COLUMBIA" eventKey={3.2}>COLUMBIA</MenuItem>
                             <MenuItem divider />
-                            <MenuItem href="/portfolio/project/COLUMBIA" eventKey={3.3}>COLUMBIA</MenuItem>
+                            <MenuItem href="/portfolio/project/DIA-BEACON" eventKey={3.3}>DIA BEACON</MenuItem>
                             <MenuItem divider />
-                            <MenuItem href="/portfolio/project/DIA-BEACON" eventKey={3.4}>DIA BEACON</MenuItem>
+                            <MenuItem href="/portfolio/project/SACRED-SPACE" eventKey={3.4}>SACRED SPACE</MenuItem>
                             <MenuItem divider />
-                            <MenuItem href="/portfolio/project/SACRED-SPACE" eventKey={3.5}>SACRED SPACE</MenuItem>
+                            <MenuItem href="/portfolio/project/TOZZER"eventKey={3.5}>TOZZER</MenuItem>
                         </NavDropdown>
                     }
                 </Nav>

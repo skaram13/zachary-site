@@ -9,7 +9,7 @@ class Blog extends Component {
         return (
             <div>
                 <Header title="BLOG"/>
-                <div className="blog-container">
+                <div className="blog-container body-text">
                     <dl>
                         <dt><h1>2018</h1></dt>
                         <dd>Coming Soon...</dd>
