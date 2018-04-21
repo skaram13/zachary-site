@@ -1,0 +1,12 @@
+.logo-home{
+    height: 50px;
+    width: auto;
+}
+
+.logo-row{
+    background-color: black;
+}
+
+.row-gradient{
+    background: linear-gradient(grey, ghostwhite);
+}

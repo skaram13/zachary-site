@@ -1,0 +1,16 @@
+.photos{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.photo{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.project-container{
+    margin-left : 30%;
+    margin-right: 30%;
+}
