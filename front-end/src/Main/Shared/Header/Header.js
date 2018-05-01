@@ -7,10 +7,12 @@ import {Link} from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
-            <Navbar>
+            <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Link className="nav-home" to="/"><img className="nav-logo" alt="logo" src={logo}/></Link>
+                    <Navbar.Toggle />
                 </Navbar.Header>
+                <Navbar.Collapse>
                 <Nav>
                     <NavItem href="/"><div className="nav-home" >ZACHARY TORRES</div></NavItem>
                     <NavDropdown className="nav-dropdown" eventKey={3} title={this.props.title} id="basic-nav-dropdown">
@@ -38,6 +40,7 @@ class Header extends Component {
                         </NavDropdown>
                     }
                 </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }
