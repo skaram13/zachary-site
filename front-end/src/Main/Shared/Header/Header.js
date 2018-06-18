@@ -37,6 +37,8 @@ class Header extends Component {
                             <MenuItem href="/portfolio/project/SACRED-SPACE" eventKey={3.4}>SACRED SPACE</MenuItem>
                             <MenuItem divider />
                             <MenuItem href="/portfolio/project/TOZZER"eventKey={3.5}>TOZZER</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem href="/portfolio/project/FERRY-TERMINAL"eventKey={3.6}>FERRY TERMINAL</MenuItem>
                         </NavDropdown>
                     }
                 </Nav>
