@@ -3,9 +3,42 @@ import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import logo from "../../../assets/LOGO.png";
 import "./Header.css";
 import {Link} from 'react-router-dom';
+import axios from "axios/index";
+const api_url = "http://photo-api-dev.us-east-1.elasticbeanstalk.com/thumbnails";
+
 
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            photos: []
+        };
+    }
+
+    componentDidMount(){
+        axios.get(api_url)
+            .then((response) => {
+                this.setState(
+                    {photos: response.data.photos}
+                );
+                console.log(this.state.photos);
+                console.log(this.state.photos.length);
+            })
+            .catch((error)=>{
+                console.log(error);
+            });
+    }
+
     render() {
+        const project_menu_items = this.state.photos.map((photo, index) =>
+            <div>
+                <MenuItem className="dropdown-item" href={"/portfolio/project/" + photo.project_name} eventKey={index}>{photo.display_name}</MenuItem>
+                {index < this.state.photos.length - 1 &&
+                <MenuItem divider />
+                }
+            </div>
+        );
+
         return (
             <Navbar collapseOnSelect>
                 <Navbar.Header>
@@ -15,30 +48,22 @@ class Header extends Component {
                 <Navbar.Collapse>
                 <Nav>
                     <NavItem href="/"><div className="nav-home" >ZACHARY TORRES</div></NavItem>
-                    <NavDropdown className="nav-dropdown" eventKey={3} title={this.props.title} id="basic-nav-dropdown">
-                        <MenuItem href="/"eventKey={3.1}>HOME</MenuItem>
-                        <MenuItem divider />
-                        <MenuItem href="/portfolio"eventKey={3.2}>PORTFOLIO</MenuItem>
-                        <MenuItem divider />
-                        <MenuItem href="/cv" eventKey={3.3}>CURRICULUM VITAE</MenuItem>
-                        <MenuItem divider />
-                        <MenuItem href="/manifesto" eventKey={3.4}>DESIGN MANIFESTO</MenuItem>
-                        <MenuItem divider />
-                        <MenuItem href="/blog" eventKey={3.5}>BLOG</MenuItem>
+                    <NavDropdown className="nav-dropdown" title={this.props.title} id="basic-nav-dropdown">
+                        <div>
+                            <MenuItem className="dropdown-item" href="/"eventKey={1}>HOME</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem className="dropdown-item" href="/portfolio"eventKey={2}>PORTFOLIO</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem className="dropdown-item" href="/cv" eventKey={3}>CURRICULUM VITAE</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem className="dropdown-item" href="/manifesto" eventKey={4}>DESIGN MANIFESTO</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem className="dropdown-item" href="/blog" eventKey={5}>BLOG</MenuItem>
+                        </div>
                     </NavDropdown>
                     {this.props.project &&
-                        <NavDropdown className="nav-dropdown" eventKey={3} title={this.props.project} id="basic-nav-dropdown">
-                            <MenuItem href="/portfolio/project/COLLAGES"eventKey={3.1}>COLLAGES</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem href="/portfolio/project/COLUMBIA" eventKey={3.2}>COLUMBIA</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem href="/portfolio/project/DIA-BEACON" eventKey={3.3}>DIA BEACON</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem href="/portfolio/project/SACRED-SPACE" eventKey={3.4}>SACRED SPACE</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem href="/portfolio/project/TOZZER"eventKey={3.5}>TOZZER</MenuItem>
-                            <MenuItem divider />
-                            <MenuItem href="/portfolio/project/FERRY-TERMINAL"eventKey={3.6}>FERRY TERMINAL</MenuItem>
+                        <NavDropdown className="nav-dropdown" title={this.props.project} id="basic-nav-dropdown">
+                            {project_menu_items }
                         </NavDropdown>
                     }
                 </Nav>
