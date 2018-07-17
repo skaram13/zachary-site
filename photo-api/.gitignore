@@ -3,3 +3,7 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+../front-end/node_modules
+/node_modules
+.xml
+.json.gz
