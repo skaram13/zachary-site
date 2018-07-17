@@ -1,7 +1,5 @@
 const AWS = require('aws-sdk');
-AWS.config.update({region: 'us-east-1',
-    accessKeyId: 'AKIAJ2S4ZZ2XVAY6LSLQ',
-    secretAccessKey: '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',});
+AWS.config.update({region: 'us-east-1'});
 
 // Create S3 service object
 s3 = new AWS.S3({apiVersion: '2006-03-01'});
