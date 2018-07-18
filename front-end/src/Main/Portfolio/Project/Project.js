@@ -33,15 +33,19 @@ class Project extends Component {
 
         );
 
+        const src = "https://s3.amazonaws.com/elasticbeanstalk-us-east-1-200745676188/writeups/" + this.props.match.params.project_name + ".pdf";
+
         return(
             <div>
                 <Header title="PORTFOLIO" project={this.props.match.params.project_name.replace("-", " ")}/>
-
+                <h1 className="header-text">{this.props.match.params.project_name.replace("-", " ")}</h1>
                 <div className="project-container">
-                    <h1 className="header-text">{this.props.match.params.project_name.replace("-", " ")}</h1>
                     <div>
                     {image_grid}
                     </div>
+                </div>
+                <div className="sidenav">
+                    <iframe className="sidebar" src={src} frameBorder="10"/>
                 </div>
             </div>
         );
