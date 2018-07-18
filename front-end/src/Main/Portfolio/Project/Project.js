@@ -28,7 +28,9 @@ class Project extends Component {
     render() {
         const image_grid = this.state.photos.map((photo) =>
             <div>
-                <img className="photo" alt="art" src={photo.photo_url} />
+                <a href={photo.photo_url}>
+                    <img className="photo" alt="art" src={photo.photo_url} />
+                </a>
             </div>
 
         );
