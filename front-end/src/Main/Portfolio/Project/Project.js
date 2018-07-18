@@ -27,17 +27,21 @@ class Project extends Component {
 
     render() {
         const image_grid = this.state.photos.map((photo) =>
-            <div className="row row-centered">
+            <div>
                 <img className="photo" alt="art" src={photo.photo_url} />
             </div>
+
         );
 
         return(
             <div>
                 <Header title="PORTFOLIO" project={this.props.match.params.project_name.replace("-", " ")}/>
+
                 <div className="project-container">
                     <h1 className="header-text">{this.props.match.params.project_name.replace("-", " ")}</h1>
+                    <div>
                     {image_grid}
+                    </div>
                 </div>
             </div>
         );
