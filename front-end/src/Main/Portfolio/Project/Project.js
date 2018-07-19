@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Project.css";
 import Header from "../../Shared/Header/Header";
 import axios from "axios/index";
+import Footer from "../../Shared/Footer/Footer";
 const base_url = "http://photo-api-dev.us-east-1.elasticbeanstalk.com/projects/";
 
 class Project extends Component {
@@ -49,6 +50,7 @@ class Project extends Component {
                 <div className="sidenav">
                     <iframe className="sidebar" src={src} frameBorder="10"/>
                 </div>
+                <Footer/>
             </div>
         );
     }

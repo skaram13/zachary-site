@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Portfolio.css";
 import Header from "../Shared/Header/Header";
+import Footer from "../Shared/Footer/Footer";
 import ImageContainer from "./ImageContainer/ImageContainer";
 import axios from "axios/index";
 const api_url = "http://photo-api-dev.us-east-1.elasticbeanstalk.com/thumbnails";
@@ -41,6 +42,7 @@ class Portfolio extends Component {
                 <div className="grid-container">
                     {image_grid}
                 </div>
+                <Footer/>
             </div>
         )
     }

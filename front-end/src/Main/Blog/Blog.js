@@ -3,6 +3,7 @@ import "./Blog.css";
 import Header from "../Shared/Header/Header";
 import Post from "./Post/Post";
 import axios from "axios/index";
+import Footer from "../Shared/Footer/Footer";
 const base_url = "http://photo-api-dev.us-east-1.elasticbeanstalk.com/blog";
 
 class Blog extends Component {
@@ -63,6 +64,7 @@ class Blog extends Component {
                         {blog_posts}
                     </dl>
                 </div>
+                <Footer/>
             </div>
         )
     }

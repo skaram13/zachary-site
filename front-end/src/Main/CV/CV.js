@@ -3,6 +3,7 @@ import "./CV.css";
 import Header from "../Shared/Header/Header";
 import resume from "../../assets/TORRES_RESUME 2.5.pdf";
 import email_logo from "../../assets/black-email-envelope.jpg";
+import Footer from "../Shared/Footer/Footer";
 
 
 class CV extends Component {
@@ -24,6 +25,7 @@ class CV extends Component {
                         </h4>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

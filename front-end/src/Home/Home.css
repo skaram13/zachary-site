@@ -10,3 +10,7 @@
 .row-gradient{
     background: linear-gradient(grey, ghostwhite);
 }
+
+.home{
+    margin-bottom: 35px;
+}

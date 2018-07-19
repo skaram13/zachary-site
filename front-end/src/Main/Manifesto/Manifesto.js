@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Manifesto.css";
 import Header from "../Shared/Header/Header";
+import Footer from "../Shared/Footer/Footer";
 
 class Manifesto extends Component {
     render() {
@@ -29,6 +30,7 @@ class Manifesto extends Component {
                         <li>Architecture must permit the full range of the human experience & emotion.</li>
                     </ul>
                 </div>
+                <Footer/>
             </div>
         )
     }
