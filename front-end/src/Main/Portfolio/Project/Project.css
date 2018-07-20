@@ -12,12 +12,23 @@
     .project-container {
         alignment: center;
         width: 97%;
-        margin-top: 450px;
+        margin-top: 30px;
     }
     .sidenav{
-        position: absolute !important; /* Fixed Sidebar (stay in place on scroll) */
-        alignment: top;
-        width: 97%;
+        display: none;
+    }
+
+    .link{
+        position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 10px;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        margin-top: 120px;
+        margin-right: 10px;
+        align-content: left;
+        alignment: left;
+        font-size: medium;
 
     }
 
@@ -31,6 +42,10 @@
     .sidenav{
         width: 25%;
     }
+
+    .link{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -40,6 +55,10 @@
     }
     .sidenav{
         width: 40%;
+    }
+
+    .link{
+        display: none;
     }
 }
 

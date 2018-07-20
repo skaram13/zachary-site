@@ -50,6 +50,9 @@ class Project extends Component {
                 <div className="sidenav">
                     <iframe className="sidebar" src={src} frameBorder="10"/>
                 </div>
+                <div className="link">
+                    <a href={src}>Click here to learn more about the project</a>
+                </div>
                 <Footer/>
             </div>
         );
