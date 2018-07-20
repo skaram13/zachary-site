@@ -42,6 +42,9 @@ class Project extends Component {
             <div>
                 <Header title="PORTFOLIO" project={this.props.match.params.project_name.replace("-", " ")}/>
                 <h1 className="header-text">{this.props.match.params.project_name.replace("-", " ")}</h1>
+                <div className="link">
+                    <a href={src}>Click here to learn more about the project</a>
+                </div>
                 <div className="project-container">
                     <div>
                     {image_grid}
@@ -49,9 +52,6 @@ class Project extends Component {
                 </div>
                 <div className="sidenav">
                     <iframe className="sidebar" src={src} frameBorder="10"/>
-                </div>
-                <div className="link">
-                    <a href={src}>Click here to learn more about the project</a>
                 </div>
                 <Footer/>
             </div>
